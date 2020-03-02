@@ -1,14 +1,29 @@
 h1 {
     text-align: center;
-    font-weight: bold;
-    text-shadow:2px 2px 2px #fff;
+    text-outline: 1px black;
 }
 h2, h3, h4, h5, h6 {
     text-align: center;
+    text-shadow:1px 1px 1px #fff;
 }
 
 body {
-    background-image: url("290043.jpg");
+    background-image: url("paintball-png-6.png");
     background-size: 100% 100%;
     background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.4);;
+}
+button {
+    text-align: center;
+    width: 15%;
+}
+
+div {
+    text-align: center;
+}
+table {
+    text-align: right;
+}
+td {
+
 }

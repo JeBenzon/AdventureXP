@@ -1,10 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>AdventureXP - Privat Booking</title>
 </head>
 <body>
-
+<br><br><br><br>
+<h1 style="color: black; font-size: 40px;font-weight: bold">Booking af Aktivitet</h1>
+<div class="container" style="width: 50%;background: rgba(0, 0, 0, 0.6);border: 2px solid black">
+    <form th:action="@{/createBooking}" method="post" >
+        <table class="table">
+            <tr>
+                <td style="width: 30%;line-height: 30px;color: white;border: transparent">Navn:</td>
+                <td><input type="text" th:field="" style="width: 100%;line-height: 25px" required/></td>
+            </tr>
+            <tr>
+                <td style="width: 30%;line-height: 30px;color: white">Aktivitet</td>
+                <td><input type="text" th:field="" style="width: 100%;line-height: 25px" required/></td>
+            </tr>
+            <tr>
+                <td style="width: 30%;line-height: 30px;color: white">Antal personer</td>
+                <td><input type="text" th:field="" style="width: 100%;line-height: 25px" required/></td>
+            </tr>
+            <tr>
+                <td style="width: 30%;line-height: 30px;color: white">Dato</td>
+                <td><input type="date" th:field="" style="width: 100%;line-height: 25px" required/></td>
+            </tr>
+            <tr>
+                <td style="width: 30%;line-height: 30px;color: white">Tidspunkt</td>
+                <td><input type="time" th:field="" style="width: 100%;line-height: 25px" required/></td>
+            </tr>
+        </table>
+    </form>
+</div>
 </body>
 </html>
