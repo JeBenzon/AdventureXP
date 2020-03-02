@@ -1,4 +1,4 @@
-package adventurexp.demo;
+package adventurexp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
