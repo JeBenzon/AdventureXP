@@ -11,11 +11,15 @@
 <h1 style="color: black; font-size: 100px;font-weight: bold">Velkommen til AdventureXP</h1>
 <br><br><br><br><br><br><br>
 <h4 style="font-size: 30px;color: black;font-weight: bold;">AdventureXP er et aktivitetscenter hvor du og dine venner, kollegaer <br> eller familie, kan komme og nyde en aktiv dag med masser af sjove aktiviteter.</h4>
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 <div>
-<a href="booking.html" style="margin-right: 20px"><button style="height: 80px;font-size: 20px;font-weight: bold" type="button" class="btn btn-primary button">BOOK EN AKTIVITET</button></a>
+<a th:href="'/privatebook'" style="margin-right: 20px"><button style="height: 80px;font-size: 20px;font-weight: bold" type="button" class="btn btn-primary button">BOOK EN AKTIVITET</button></a>
 
-<a href="bookingFirma.html"><button style="height: 80px;font-size: 20px;font-weight: bold" type="button" class="btn btn-primary button">BOOK ET FIRMA EVENT</button></a>
+<a th:href="'/businessbook'"><button style="height: 80px;font-size: 20px;font-weight: bold" type="button" class="btn btn-primary button">BOOK ET FIRMA EVENT</button></a>
+</div>
+<br>
+<div>
+    <a th:href="'/createactivity'"><button style="height: 80px;font-size: 20px;font-weight: bold" type="button" class="btn btn-warning button">OPRET NY AKTIVITET</button></a>
 </div>
 </body>
 </html>
