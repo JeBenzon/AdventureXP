@@ -29,6 +29,18 @@ public class Activity {
         this.instructor = instructor;
         this.date = date;
     }
+    public Activity(int actitivtyId, String name, int ageLimit, double price,
+                    int participants, int minSlots, int maxSlots, String instructor, String date) {
+        this.actitivtyId = actitivtyId;
+        this.name = name;
+        this.ageLimit = ageLimit;
+        this.price = price;
+        this.participants = participants;
+        this.minSlots = minSlots;
+        this.maxSlots = maxSlots;
+        this.instructor = instructor;
+        this.date = date;
+    }
 
     public int getActitivtyId() {
         return actitivtyId;
