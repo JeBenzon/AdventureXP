@@ -63,10 +63,10 @@ public class EmployerController {
         Booking booking = bookingService.findBookingById(bookingId);
         model.addAttribute("booking", booking);
 
-        return "editbooking";
+        return "editBooking";
     }
 
-    @PostMapping("editbooking")
+    @PostMapping("editBooking")
     public String updateBooking(@ModelAttribute Booking booking) {
         bookingService.updateBooking(booking);
         return "redirect:/";
@@ -84,10 +84,10 @@ public class EmployerController {
     public String createActivity(Model model) {
         Activity activity = new Activity();
         model.addAttribute("activity", activity);
-        return "createactivity";
+        return "createActivity";
     }
 
-    @PostMapping("createactivity")
+    @PostMapping("createActivity")
     public String createActivity(@ModelAttribute Activity activity) {
         activityService.addActivity(activity);
         return "redirect:/";
