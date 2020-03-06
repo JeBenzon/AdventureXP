@@ -41,7 +41,7 @@ public class BusinessCustomersController {
     public String postBusinessbook(@RequestParam int actitivtyId, @ModelAttribute Booking booking) {
         Activity activity = activityService.findAcitivityById(actitivtyId);
         booking.setActivityId(activity.getActitivtyId());
-        booking.setBookingType("Business");
+        booking.setBookingType(1);
         bookingService.addBooking(booking);
 
         return "redirect:/";

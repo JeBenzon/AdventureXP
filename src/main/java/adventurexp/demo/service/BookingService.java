@@ -1,24 +1,41 @@
 package adventurexp.demo.service;
 
+import adventurexp.demo.BookingInterface;
 import adventurexp.demo.model.Booking;
+import adventurexp.demo.repository.BookingRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
-public class BookingService {
+public class BookingService implements BookingInterface {
 
+    @Autowired
+    BookingRepository bookingRepository;
+
+    @Override
+    public List<Booking> getAllBookings() {
+        return null;
+    }
+
+    @Override
     public Booking findBookingById(int bookingId) {
-        return;
+        return bookingRepository.findBookingById(bookingId);
     }
 
-    public void addBooking(Booking booking) {
-
+    @Override
+    public int addBooking(Booking booking) {
+        return 0;
     }
 
-    public void updateBooking(Booking booking) {
-
+    @Override
+    public int updateBooking(Booking booking) {
+        return 0;
     }
 
-    public void deleteBooking(int bookingId) {
-
+    @Override
+    public int deleteBooking(int bookingId) {
+        return 0;
     }
 }

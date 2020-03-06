@@ -43,7 +43,7 @@ public class PrivateCustomersController {
     public String postPrivatebook(@RequestParam int actitivtyId, @ModelAttribute Booking booking) {
         Activity activity = activityService.findAcitivityById(actitivtyId);
         booking.setActivityId(activity.getActitivtyId());
-        booking.setBookingType("Private");
+        booking.setBookingType(0);
         bookingService.addBooking(booking);
 
         return "redirect:/";

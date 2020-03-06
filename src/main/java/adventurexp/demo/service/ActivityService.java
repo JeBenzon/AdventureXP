@@ -11,6 +11,6 @@ public class ActivityService {
     }
 
     public Activity findAcitivityById(int activityId) {
-        return;
+        return new Activity();
     }
 }

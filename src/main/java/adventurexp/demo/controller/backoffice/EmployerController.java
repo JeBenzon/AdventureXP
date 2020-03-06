@@ -66,7 +66,7 @@ public class EmployerController {
         return "editBooking";
     }
 
-    @PostMapping("editBooking")
+    @PostMapping("/editBooking")
     public String updateBooking(@ModelAttribute Booking booking) {
         bookingService.updateBooking(booking);
         return "redirect:/";
@@ -80,14 +80,14 @@ public class EmployerController {
     }
 
     //-------------------------------CREATE ACTIVITY-------------------------------
-    @GetMapping("createactivity")
+    @GetMapping("/createactivity")
     public String createActivity(Model model) {
         Activity activity = new Activity();
         model.addAttribute("activity", activity);
         return "createActivity";
     }
 
-    @PostMapping("createActivity")
+    @PostMapping("/createActivity")
     public String createActivity(@ModelAttribute Activity activity) {
         activityService.addActivity(activity);
         return "redirect:/";

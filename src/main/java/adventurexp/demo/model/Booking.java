@@ -3,7 +3,7 @@ package adventurexp.demo.model;
 public class Booking {
 
     private int bookingId;
-    private String bookingType;
+    private int bookingType;
     private int activityId;
     private String name;
     private int participants;
@@ -12,7 +12,7 @@ public class Booking {
     public Booking() {
     }
 
-    public Booking(int bookingId, String bookingType, int activityId, String name, int participants, String date) {
+    public Booking(int bookingId, int bookingType, int activityId, String name, int participants, String date) {
         this.bookingId = bookingId;
         this.bookingType = bookingType;
         this.activityId = activityId;
@@ -29,11 +29,11 @@ public class Booking {
         this.bookingId = bookingId;
     }
 
-    public String getBookingType() {
+    public int getBookingType() {
         return bookingType;
     }
 
-    public void setBookingType(String bookingType) {
+    public void setBookingType(int bookingType) {
         this.bookingType = bookingType;
     }
 
