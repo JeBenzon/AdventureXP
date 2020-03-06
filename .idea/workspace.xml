@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbf2afa-effb-4482-9cc4-8766e91d2ddf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SQLscript.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/bookingFirma.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/bookingFirma.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createActivity.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createActivity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583488098528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Martins commit">
+      <created>1583488558973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583488558973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -177,15 +181,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583485016806" />
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1583488096331">
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1583488557257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583485014439" />
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583488096331" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583488102115">
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583488557257" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583488561386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583488102115" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583488561386" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
