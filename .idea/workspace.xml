@@ -122,12 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
-  </component>
+  <component name="ProjectId" id="1YkSCBIVXnWKKuJptoxRbbAflWS" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
   </component>
@@ -424,10 +419,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Project_Structure" />
-    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" />
-    <state x="199" y="0" key="CommitChangelistDialog2" />
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" />
+    <state x="233" y="0" key="#Project_Structure" timestamp="1583485014439" />
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1583485014439" />
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583485016806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583485016806" />
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1583485014439" />
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583485014439" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
