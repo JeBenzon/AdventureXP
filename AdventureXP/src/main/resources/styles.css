@@ -23,7 +23,8 @@ div {
 }
 table {
     text-align: right;
+    border: none;
 }
 td {
-
+    border: none;
 }

@@ -9,31 +9,39 @@
 <body>
 <br><br><br><br>
 <h1 style="color: black; font-size: 40px;font-weight: bold">Booking af Aktivitet</h1>
+<br>
 <div class="container" style="width: 50%;background: rgba(0, 0, 0, 0.6);border: 2px solid black">
     <form th:action="@{/createBooking}" method="post" >
-        <table class="table">
+        <table >
             <tr>
-                <td style="width: 30%;line-height: 30px;color: white;border: transparent">Navn:</td>
-                <td><input type="text" th:field="" style="width: 100%;line-height: 25px" required/></td>
+                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Navn:</td>
+                <td style=";border-color: transparent"><input type="text" th:field="" style="width: 100%;line-height: 25px;" required/></td>
             </tr>
             <tr>
-                <td style="width: 30%;line-height: 30px;color: white">Aktivitet</td>
-                <td><input type="text" th:field="" style="width: 100%;line-height: 25px" required/></td>
+                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Aktivitet</td>
+                <td style=";border-color: transparent"><input type="text" th:field="" style="width: 100%;line-height: 25px" required/></td>
             </tr>
             <tr>
-                <td style="width: 30%;line-height: 30px;color: white">Antal personer</td>
-                <td><input type="text" th:field="" style="width: 100%;line-height: 25px" required/></td>
+                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Antal personer</td>
+                <td style=";border-color: transparent"><input type="text" th:field="" style="width: 100%;line-height: 25px" required/></td>
             </tr>
             <tr>
-                <td style="width: 30%;line-height: 30px;color: white">Dato</td>
-                <td><input type="date" th:field="" style="width: 100%;line-height: 25px" required/></td>
+                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Dato</td>
+                <td style=";border-color: transparent"><input type="date" th:field="" style="width: 100%;line-height: 25px" required/></td>
             </tr>
             <tr>
-                <td style="width: 30%;line-height: 30px;color: white">Tidspunkt</td>
-                <td><input type="time" th:field="" style="width: 100%;line-height: 25px" required/></td>
+                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Tidspunkt</td>
+                <td style=";border-color: transparent"><input type="time" th:field="" style="width: 100%;line-height: 25px" required/></td>
             </tr>
+            <br>
         </table>
+        <tr>
+            <td style="text-align: center" ><input type="submit" style="height: 40px;font-size: 20px;font-weight: bold;margin-right: 10px" value="Opret Anmeldelse" class="btn btn-primary button"/></td>
+            <td><a href="index.html"><button style="height: 40px;font-size: 20px;font-weight: bold; width: 20%;color: lightgrey" type="button" class="btn btn-primary button">Annuller</button></a></td>
+        </tr>
+        <br>
     </form>
+    <br>
 </div>
 </body>
 </html>
