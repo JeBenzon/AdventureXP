@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cbf2afa-effb-4482-9cc4-8766e91d2ddf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventurexp/demo/controller/backoffice/EmployerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventurexp/demo/controller/backoffice/EmployerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventurexp/demo/model/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventurexp/demo/model/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventurexp/demo/repository/ActivityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventurexp/demo/repository/ActivityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventurexp/demo/repository/ActivityRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventurexp/demo/repository/ActivityRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adventurexp/demo/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adventurexp/demo/service/ActivityService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +75,13 @@
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Itamar\Desktop\AdventureXP\.idea" />
+      </set>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -198,7 +201,16 @@
       <workItem from="1583165793610" duration="6000" />
       <workItem from="1583480496363" duration="650000" />
       <workItem from="1583485247489" duration="1152000" />
+      <workItem from="1583491654134" duration="96000" />
     </task>
+    <task id="LOCAL-00001" summary="ActivityREpo">
+      <created>1583491382481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583491382481</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -221,6 +233,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ActivityREpo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ActivityREpo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Project_Structure" />
