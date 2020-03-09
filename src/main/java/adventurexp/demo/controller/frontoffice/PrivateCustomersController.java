@@ -36,14 +36,14 @@ public class PrivateCustomersController {
         model.addAttribute("activitiesList",activities);
         model.addAttribute("booking", booking);
 
-        return "privatebook";
+        return "booking";
     }
 
     @PostMapping("/privatebook")
     public String postPrivatebook(@RequestParam int actitivtyId, @ModelAttribute Booking booking) {
         Activity activity = activityService.findAcitivityById(actitivtyId);
         booking.setActivityId(activity.getActitivtyId());
-        booking.setBookingType("Private");
+        booking.setBookingType(0);
         bookingService.addBooking(booking);
 
         return "redirect:/";

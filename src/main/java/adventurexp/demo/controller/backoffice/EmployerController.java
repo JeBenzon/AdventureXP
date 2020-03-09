@@ -59,14 +59,14 @@ public class EmployerController {
 
     //-------------------------------EDIT BOOKING-------------------------------
     @GetMapping("/editbooking")
-    public String editbooking(Model model, @RequestParam int bookingId) {
-        Booking booking = bookingService.findBookingById(bookingId);
+    public String editbooking(Model model /*@RequestParam int bookingId*/) {
+        Booking booking = bookingService.findBookingById(1);
         model.addAttribute("booking", booking);
 
         return "editBooking";
     }
 
-    @PostMapping("editBooking")
+    @PostMapping("/editBooking")
     public String updateBooking(@ModelAttribute Booking booking) {
         bookingService.updateBooking(booking);
         return "redirect:/";
@@ -80,14 +80,14 @@ public class EmployerController {
     }
 
     //-------------------------------CREATE ACTIVITY-------------------------------
-    @GetMapping("createactivity")
+    @GetMapping("/createactivity")
     public String createActivity(Model model) {
         Activity activity = new Activity();
         model.addAttribute("activity", activity);
         return "createActivity";
     }
 
-    @PostMapping("createActivity")
+    @PostMapping("/createActivity")
     public String createActivity(@ModelAttribute Activity activity) {
         activityService.addActivity(activity);
         return "redirect:/";

@@ -34,14 +34,14 @@ public class BusinessCustomersController {
         model.addAttribute("activitiesList",activities);
         model.addAttribute("booking", booking);
 
-        return "businessbook";
+        return "booking";
     }
 
     @PostMapping("/businessbook")
     public String postBusinessbook(@RequestParam int actitivtyId, @ModelAttribute Booking booking) {
         Activity activity = activityService.findAcitivityById(actitivtyId);
         booking.setActivityId(activity.getActitivtyId());
-        booking.setBookingType("Business");
+        booking.setBookingType(1);
         bookingService.addBooking(booking);
 
         return "redirect:/";
