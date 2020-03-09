@@ -1,6 +1,5 @@
 package adventurexp.demo.controller;
 
-import adventurexp.demo.model.Booking;
 import adventurexp.demo.service.BookingService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,8 +17,6 @@ public class IndexController {
 
     @GetMapping("/")
     public String index() {
-        Booking booking = bookingService.findBookingById(1);
-        log.info(booking.toString());
         return "index";
     }
 }

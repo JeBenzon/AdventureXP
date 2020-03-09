@@ -16,7 +16,7 @@ public class BookingService implements BookingInterface {
 
     @Override
     public List<Booking> getAllBookings() {
-        return null;
+        return bookingRepository.getAllBookings();
     }
 
     @Override
@@ -26,7 +26,7 @@ public class BookingService implements BookingInterface {
 
     @Override
     public int addBooking(Booking booking) {
-        return 0;
+        return bookingRepository.addBooking(booking);
     }
 
     @Override

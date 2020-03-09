@@ -59,8 +59,8 @@ public class EmployerController {
 
     //-------------------------------EDIT BOOKING-------------------------------
     @GetMapping("/editbooking")
-    public String editbooking(Model model, @RequestParam int bookingId) {
-        Booking booking = bookingService.findBookingById(bookingId);
+    public String editbooking(Model model /*@RequestParam int bookingId*/) {
+        Booking booking = bookingService.findBookingById(1);
         model.addAttribute("booking", booking);
 
         return "editBooking";

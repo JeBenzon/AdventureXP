@@ -34,7 +34,7 @@ public class BusinessCustomersController {
         model.addAttribute("activitiesList",activities);
         model.addAttribute("booking", booking);
 
-        return "businessbook";
+        return "booking";
     }
 
     @PostMapping("/businessbook")

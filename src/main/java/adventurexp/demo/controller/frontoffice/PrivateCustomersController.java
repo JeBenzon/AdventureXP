@@ -36,7 +36,7 @@ public class PrivateCustomersController {
         model.addAttribute("activitiesList",activities);
         model.addAttribute("booking", booking);
 
-        return "privatebook";
+        return "booking";
     }
 
     @PostMapping("/privatebook")
