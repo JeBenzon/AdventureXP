@@ -2,11 +2,12 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
+    <div th:include="fragments/Head :: scripts"></div>
     <link rel="stylesheet" href="../static/css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>AdventureXP - Forside</title>
 </head>
 <body>
+<div th:include = "fragments/Navbar :: navbar"></div>
 <br><br><br><br>
 <h1 style="color: black; font-size: 100px;font-weight: bold">Velkommen til AdventureXP</h1>
 <br><br><br><br><br><br><br>
