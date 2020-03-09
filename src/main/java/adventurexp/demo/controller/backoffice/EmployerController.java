@@ -92,4 +92,6 @@ public class EmployerController {
         activityService.addActivity(activity);
         return "redirect:/";
     }
+
+
 }
