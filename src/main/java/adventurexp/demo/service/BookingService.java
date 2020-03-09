@@ -31,11 +31,11 @@ public class BookingService implements BookingInterface {
 
     @Override
     public int updateBooking(Booking booking) {
-        return 0;
+        return bookingRepository.updateBooking(booking);
     }
 
     @Override
     public int deleteBooking(int bookingId) {
-        return 0;
+        return bookingRepository.deleteBooking(bookingId);
     }
 }

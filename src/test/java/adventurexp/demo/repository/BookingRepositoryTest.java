@@ -21,6 +21,8 @@ class BookingRepositoryTest {
 
     @Test
     void findBookingById1() {
+        int bookingId = bookingRepository.findBookingById(1).getBookingId();
+        assertEquals(1, bookingId);
     }
 
     @Test
