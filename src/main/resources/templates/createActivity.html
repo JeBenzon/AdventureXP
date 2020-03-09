@@ -1,53 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../static/css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>AdventureXP - Privat Booking</title>
+    <title>Title</title>
 </head>
 <body>
-<br><br><br><br>
-<h1 style="color: black; font-size: 40px;font-weight: bold">Oprettelse af ny aktivitet</h1>
-<br>
-<div class="container" style="width: 50%;background: rgba(0, 0, 0, 0.6);border: 2px solid black">
-    <form th:action="@{/createActivity}" method="post" >
-        <table class="table">
-            <tr>
-                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Navn på aktivitet</td>
-                <td style=";border-color: transparent"><input type="text" th:field="" style="width: 200px;line-height: 25px;" required/></td>
-            </tr>
 
-            <tr>
-                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Aldersgrænse</td>
-                <td style=";border-color: transparent"><input type="number" th:field="" style="width: 100%;line-height: 25px" required/></td>
-
-                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Min antal deltagere</td>
-                <td style=";border-color: transparent"><input type="number" th:field="" style="width: 100%;line-height: 25px" required/></td>
-
-            </tr>
-            <tr>
-                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Pris per person</td>
-                <td style=";border-color: transparent"><input type="number" th:field="" style="width: 100%;line-height: 25px" required/></td>
-
-                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Max antal deltagere</td>
-                <td style=";border-color: transparent"><input type="number" th:field="" style="width: 100%;line-height: 25px" required/></td>
-            </tr>
-
-            <tr>
-                <td style="width: 30%;line-height: 30px;color: white;border-color: transparent">Instruktør</td>
-                <td style=";border-color: transparent"><input type="text" th:field="" style="width: 100%;line-height: 25px" required/></td>
-            </tr>
-            <br>
-        </table>
-        <tr>
-            <td style="text-align: center" ><input type="submit" style="height: 40px;font-size: 20px;font-weight: bold;margin-right: 10px" value="Opret ny aktivitet" class="btn btn-primary button"/></td>
-            <td><a th:href="@{/}"><button style="height: 40px;font-size: 20px;font-weight: bold; width: 20%;color: lightgrey" type="button" class="btn btn-primary button">Annuller</button></a></td>
-        </tr>
-        <br>
-    </form>
-    <br>
-</div>
 </body>
 </html>
